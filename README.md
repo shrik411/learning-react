@@ -1,15 +1,15 @@
 # learning-react
-1. React Hooks
-.  useState
+1. React Hooks 
+*  useState
    let [count, setCount] = useState(0)
    
-. useEffect
+* useEffect
   useEffect hook can replace functionality of componentDidMount, componentDidUnmount and ComponentDidUpdate 
 useEffect(() => {
   // code snippet here
 }, [<dependancies>]);
 
-. useContenxt
+* useContenxt
 context is use for passing the property down to the child components in nested hierarchy
         A  {context}
 B       C       D
