@@ -20,9 +20,13 @@ Class Component
 export const userContext = React.createContext()
 export const channelContext = React.createContext()
 
-<userContext.Provider value={'name'}>
+<userContext.Provider value={'name'}> 
+
    <channelContext.Provider value={'contextValue'}>
+   
       <Component C/>
+      
    </channelContext.Provider>
+   
 <userContext.Provider
 
