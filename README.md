@@ -28,10 +28,14 @@ export const channelContext = React.createContext()
       
    </channelContext.Provider>
    
-<userContext.Provider
+</userContext.Provider>
 
-Consumption in class based component
+Consumption in class based component 
+
 ..import context 
+
 <userContext.consumer>
+
    <Component F>
+
 </userContext.consumer>
