@@ -41,4 +41,19 @@ Consumption in class based component
       return <div>User context value {user} </div>
    }
 
-</userContext.consumer>
+</userContext.consumer> 
+With Hooks:
+
+import {React, useContext} from 'react';
+import {userContext, channelContext} from '../App';
+
+function ComponentE() {
+   const user = useContext(userContext)
+   const channel = useContext(channelContext)
+   
+   return (
+      <div>
+         {user} - {channel}
+      <div>
+   )
+}
