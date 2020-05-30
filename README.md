@@ -36,6 +36,9 @@ Consumption in class based component
 
 <userContext.consumer>
 
-   <Component F>
+   user => {
+      // context will be available here
+      return <div>User context value {user} </div>
+   }
 
 </userContext.consumer>
