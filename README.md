@@ -57,3 +57,8 @@ function ComponentE() {
       <div>
    )
 }
+
+
+* Performance optimization
+
+useCallback - caches the function, reloads only if the dependancy changes.
